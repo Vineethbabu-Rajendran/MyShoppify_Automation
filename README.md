@@ -35,3 +35,22 @@ Identifies and reports broken links on the MyShopify homepage using HTTP respons
 
 ## 📂 Project Structure
 
+myshopify-automation
+│── pom.xml # Maven dependencies
+│── README.md # Project documentation
+│
+├── src
+│ ├── main
+│ │ └── java
+│ │ └── pages # Page Object classes for MyShopify
+│
+└── testng.xml # TestNG Suite configuration
+
+## 📊 Reporting
+- **TestNG Report**: Automatically generated under the `test-output/` directory after execution.  
+ 
+---
+
+## 👤 Author
+- **Name**: Vineeth Babu  
+- **Role**: Senior SDET 
